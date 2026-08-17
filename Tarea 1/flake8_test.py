@@ -6,10 +6,8 @@ commit con errores identificables por flake8, y posteriormente otro
 commit que los corrija.
 """
 
-import math
 
-
-def calcular_area_rectangulo(base,altura):
+def calcular_area_rectangulo(base, altura):
     """Calcula el area de un rectangulo.
 
     Parametros:
@@ -19,5 +17,5 @@ def calcular_area_rectangulo(base,altura):
     Retorna:
         float: area resultante de multiplicar base por altura.
     """
-    resultado=base * altura
+    resultado = base * altura
     return resultado
